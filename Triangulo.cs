@@ -48,6 +48,33 @@ Console.WriteLine("--- Calculadora del Área de un Triángulo ---");
          Console.WriteLine($"La altura del triángulo es: {triangleHeight}");
          Console.WriteLine($"El área del triángulo es: {area}");
 
+        Console.WriteLine("\n--- Calculadora del Área de un Cuadrado ---");
+
+        double squareSide;
+
+        // Solicitar y validar el lado del cuadrado
+        while (true)
+        {
+            Console.Write("Introduce la longitud de un lado del cuadrado: ");
+            string sideInput = Console.ReadLine();
+
+            if (double.TryParse(sideInput, out squareSide) && squareSide > 0)
+            {
+                break; // Salir del bucle si la entrada es válida
+            }
+            else
+            {
+                Console.WriteLine("Entrada inválida. Por favor, introduce un número positivo para el lado.");
+            }
+        }
+
+        // Calcular el área del cuadrado
+        double squareArea = squareSide * squareSide;
+
+        // Mostrar el resultado del cuadrado
+        Console.WriteLine($"\nEl lado del cuadrado es: {squareSide}");
+        Console.WriteLine($"El área del cuadrado es: {squareArea}");
+
          Console.WriteLine("\nPresiona cualquier tecla para salir.");
          Console.ReadKey();
      }
