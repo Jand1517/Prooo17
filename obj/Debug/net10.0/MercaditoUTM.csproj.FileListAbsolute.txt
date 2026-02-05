@@ -1,0 +1,14 @@
+/Users/andreyjsjsjs/unid_rr/MercaditoUTM/bin/Debug/net10.0/MercaditoUTM
+/Users/andreyjsjsjs/unid_rr/MercaditoUTM/bin/Debug/net10.0/MercaditoUTM.deps.json
+/Users/andreyjsjsjs/unid_rr/MercaditoUTM/bin/Debug/net10.0/MercaditoUTM.runtimeconfig.json
+/Users/andreyjsjsjs/unid_rr/MercaditoUTM/bin/Debug/net10.0/MercaditoUTM.dll
+/Users/andreyjsjsjs/unid_rr/MercaditoUTM/bin/Debug/net10.0/MercaditoUTM.pdb
+/Users/andreyjsjsjs/unid_rr/MercaditoUTM/obj/Debug/net10.0/MercaditoUTM.GeneratedMSBuildEditorConfig.editorconfig
+/Users/andreyjsjsjs/unid_rr/MercaditoUTM/obj/Debug/net10.0/MercaditoUTM.AssemblyInfoInputs.cache
+/Users/andreyjsjsjs/unid_rr/MercaditoUTM/obj/Debug/net10.0/MercaditoUTM.AssemblyInfo.cs
+/Users/andreyjsjsjs/unid_rr/MercaditoUTM/obj/Debug/net10.0/MercaditoUTM.csproj.CoreCompileInputs.cache
+/Users/andreyjsjsjs/unid_rr/MercaditoUTM/obj/Debug/net10.0/MercaditoUTM.dll
+/Users/andreyjsjsjs/unid_rr/MercaditoUTM/obj/Debug/net10.0/refint/MercaditoUTM.dll
+/Users/andreyjsjsjs/unid_rr/MercaditoUTM/obj/Debug/net10.0/MercaditoUTM.pdb
+/Users/andreyjsjsjs/unid_rr/MercaditoUTM/obj/Debug/net10.0/MercaditoUTM.genruntimeconfig.cache
+/Users/andreyjsjsjs/unid_rr/MercaditoUTM/obj/Debug/net10.0/ref/MercaditoUTM.dll
