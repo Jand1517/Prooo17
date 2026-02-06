@@ -1,29 +1,27 @@
 using System.Collections.Generic;
-using core.Use_cases;
-using MercaditoUTM.src.core.Entities;
+using Mercadito_UTM.Core.Entities;
+using Mercadito_UTM.Core.UseCases;
 
-namespace MercaditoUTM.application
+namespace Mercadito_UTM.Application
 {
     public class ConsultarProductos : IConsultarProductos
     {
-        public List<Articulo> GetAll()
+        public List<Articulo> Ejecutar()
         {
+            // For now, return a dummy list as there's no data source.
+            // In a real application, this would interact with a repository or data access layer.
             var articulos = new List<Articulo>();
             var random = new Random();
-            var nombres = new[] { "Laptop", "Mouse", "Teclado", "Monitor", "Impresora", "Webcam", "Hub USB", "Auriculares" };
-            var marcas = new[] { "Dell", "Logitech", "Corsair", "HP", "Samsung", "Sony", "Microsoft" };
 
-            for (int i = 0; i < 25; i++)
+            for (int i = 1; i <= 30; i++)
             {
-                var nombre = nombres[random.Next(nombres.Length)];
-                var marca = marcas[random.Next(marcas.Length)];
                 articulos.Add(new Articulo
                 {
-                    Nombre = nombre,
-                    Precio = (decimal)(random.NextDouble() * 1500),
-                    SKU = $"{nombre.Substring(0, 2).ToUpper()}-{i:000}",
-                    Stock = random.Next(1, 100),
-                    Marca = marca
+                    Nombres = $"Articulo Generado {i}",
+                    Precio = Math.Round((decimal)random.NextDouble() * 100, 2), // Price between 0.00 and 100.00
+                    Sku = $"SKU{i:D3}",
+                    Stock = random.Next(10, 200), // Stock between 10 and 199
+                    Marca = $"Marca {random.Next(1, 5)}"
                 });
             }
             return articulos;

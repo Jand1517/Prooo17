@@ -8,19 +8,19 @@
     "net10.0": []
   },
   "packageFolders": {
-    "/Users/andreyjsjsjs/.nuget/packages/": {}
+    "C:\\Users\\ManuelRosado\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/andreyjsjsjs/unid_rr/MercaditoUTM/MercaditoUTM.csproj",
-      "projectName": "MercaditoUTM",
-      "projectPath": "/Users/andreyjsjsjs/unid_rr/MercaditoUTM/MercaditoUTM.csproj",
-      "packagesPath": "/Users/andreyjsjsjs/.nuget/packages/",
-      "outputPath": "/Users/andreyjsjsjs/unid_rr/MercaditoUTM/obj/",
+      "projectUniqueName": "C:\\Users\\gemini\\Mercadito_UTM\\Mercadito_UTM.csproj",
+      "projectName": "Mercadito_UTM",
+      "projectPath": "C:\\Users\\gemini\\Mercadito_UTM\\Mercadito_UTM.csproj",
+      "packagesPath": "C:\\Users\\ManuelRosado\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\gemini\\Mercadito_UTM\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/andreyjsjsjs/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\ManuelRosado\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net10.0"
@@ -65,7 +65,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/10.0.102/PortableRuntimeIdentifierGraph.json",
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.102/PortableRuntimeIdentifierGraph.json",
         "packagesToPrune": {
           "Microsoft.CSharp": "(,4.7.32767]",
           "Microsoft.VisualBasic": "(,10.4.32767]",
